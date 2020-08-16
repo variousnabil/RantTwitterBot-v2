@@ -23,7 +23,7 @@ lineReader.on('line', function (line) {
     all_bangsat_kau.push(line);
 });
 
-// when every line already stored in array, send every tweet randomly every 1 minutes (worker)
+// when every line already stored in array, send a tweet every 1 day (worker)
 lineReader.on('close', () => {
     setInterval(() => {
         const randomIndex = Math.floor(Math.random() * all_bangsat_kau.length);
