@@ -33,7 +33,7 @@ lineReader.on('close', () => {
             console.log('tweet sent:', data.text);
             console.log('sleeping for 1 day...');
         });
-    }, 24 * 60 * 60 * 1000);
+    }, 2 * 60 * 1000);
 });
 
 
