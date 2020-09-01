@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/variousnabil/RantTwitterBot-v2#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4",
     "twit": "^2.2.11"
   },
   "engines": {
